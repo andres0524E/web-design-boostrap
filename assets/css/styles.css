@@ -1,6 +1,6 @@
 body{
 
-background-image: url("/assets/img/fondo.jpg");
+background-image: url("../img/fondo.jpg");
 
 background-size: cover;
 
@@ -18,17 +18,11 @@ padding: 0;
 
 }
 
-
-/* CONTENEDOR FORMULARIO */
-
 .formulario-container{
 
 height: 80vh;
 
 }
-
-
-/* TARJETA */
 
 .formulario-card{
 
@@ -43,9 +37,6 @@ background: rgba(255,255,255,0.95);
 padding: 12px;
 
 }
-
-
-/* BOTON */
 
 .btn-registro{
 
@@ -65,7 +56,6 @@ transition: 0.3s;
 
 }
 
-
 .btn-registro:hover{
 
 opacity: 0.9;
@@ -73,9 +63,6 @@ opacity: 0.9;
 color: white;
 
 }
-
-
-/* NAVBAR */
 
 .navbar-brand strong{
 
@@ -94,9 +81,6 @@ font-weight: 500;
 color: #0aa29d !important;
 
 }
-
-
-/* FOOTER */
 
 .footer{
 

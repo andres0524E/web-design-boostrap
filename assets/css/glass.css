@@ -1,6 +1,6 @@
 body{
 
-background-image:url("/assets/img/fondo.jpg");
+background-image:url("../img/fondo.jpg");
 
 background-size:cover;
 
@@ -15,7 +15,6 @@ flex-direction:column;
 min-height:100vh;
 
 }
-
 
 .nav-glass{
 
@@ -33,7 +32,6 @@ backdrop-filter:blur(10px);
 
 }
 
-
 .logo{
 
 display:flex;
@@ -48,13 +46,11 @@ color:#222;
 
 }
 
-
 .logo img{
 
 width:35px;
 
 }
-
 
 .btn-switch{
 
@@ -72,7 +68,6 @@ font-weight:600;
 
 }
 
-
 .contenedor{
 
 flex:1;
@@ -84,7 +79,6 @@ justify-content:center;
 align-items:center;
 
 }
-
 
 .glass-card{
 
@@ -104,7 +98,6 @@ color:#222;
 
 }
 
-
 .input-group{
 
 display:flex;
@@ -121,7 +114,6 @@ border-radius:8px;
 
 }
 
-
 .input-group i{
 
 margin-right:10px;
@@ -129,7 +121,6 @@ margin-right:10px;
 color:#0aa29d;
 
 }
-
 
 .input-group input{
 
@@ -144,7 +135,6 @@ color:#222;
 width:100%;
 
 }
-
 
 .btn-enviar{
 
@@ -165,7 +155,6 @@ color:white;
 font-weight:bold;
 
 }
-
 
 .footer-glass{
 
