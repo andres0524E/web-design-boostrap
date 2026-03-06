@@ -1,40 +1,53 @@
 body{
 
-background-image: url("/img/fondo.jpg");
-background-size: cover;
-background-position: center;
-font-family: Arial;
+background-image:url("/img/fondo.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+font-family:Arial;
 
 display:flex;
+
 flex-direction:column;
+
 min-height:100vh;
 
 }
 
-/* NAV */
 
 .nav-glass{
 
 display:flex;
+
 justify-content:space-between;
+
 align-items:center;
 
 padding:15px 40px;
 
-background:rgba(255,255,255,0.2);
-backdrop-filter: blur(10px);
+background:rgba(255,255,255,0.35);
+
+backdrop-filter:blur(10px);
 
 }
+
 
 .logo{
 
 display:flex;
+
 align-items:center;
+
 gap:10px;
-color:white;
+
 font-weight:bold;
 
+color:#222;
+
 }
+
 
 .logo img{
 
@@ -42,27 +55,36 @@ width:35px;
 
 }
 
+
 .btn-switch{
 
+background:linear-gradient(90deg,#19c6b8,#0aa29d);
+
 color:white;
+
+padding:8px 15px;
+
+border-radius:6px;
+
 text-decoration:none;
+
 font-weight:600;
 
 }
 
-/* CONTENEDOR */
 
 .contenedor{
 
 flex:1;
 
 display:flex;
+
 justify-content:center;
+
 align-items:center;
 
 }
 
-/* CARD */
 
 .glass-card{
 
@@ -72,24 +94,24 @@ padding:30px;
 
 border-radius:15px;
 
-background:rgba(255,255,255,0.2);
+background:rgba(255,255,255,0.45);
 
-backdrop-filter: blur(15px);
+backdrop-filter:blur(15px);
 
 box-shadow:0 8px 32px rgba(0,0,0,0.3);
 
-color:white;
+color:#222;
 
 }
 
-/* INPUTS */
 
 .input-group{
 
 display:flex;
+
 align-items:center;
 
-background:rgba(255,255,255,0.3);
+background:rgba(255,255,255,0.7);
 
 padding:10px;
 
@@ -99,23 +121,30 @@ border-radius:8px;
 
 }
 
+
 .input-group i{
 
 margin-right:10px;
 
+color:#0aa29d;
+
 }
+
 
 .input-group input{
 
 background:transparent;
+
 border:none;
+
 outline:none;
-color:white;
+
+color:#222;
+
 width:100%;
 
 }
 
-/* BOTON */
 
 .btn-enviar{
 
@@ -135,11 +164,8 @@ color:white;
 
 font-weight:bold;
 
-cursor:pointer;
-
 }
 
-/* FOOTER */
 
 .footer-glass{
 
@@ -147,7 +173,7 @@ text-align:center;
 
 padding:15px;
 
-background:rgba(0,0,0,0.5);
+background:rgba(0,0,0,0.6);
 
 color:white;
 
