@@ -1,0 +1,154 @@
+body{
+
+background-image: url("/img/fondo.jpg");
+background-size: cover;
+background-position: center;
+font-family: Arial;
+
+display:flex;
+flex-direction:column;
+min-height:100vh;
+
+}
+
+/* NAV */
+
+.nav-glass{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:15px 40px;
+
+background:rgba(255,255,255,0.2);
+backdrop-filter: blur(10px);
+
+}
+
+.logo{
+
+display:flex;
+align-items:center;
+gap:10px;
+color:white;
+font-weight:bold;
+
+}
+
+.logo img{
+
+width:35px;
+
+}
+
+.btn-switch{
+
+color:white;
+text-decoration:none;
+font-weight:600;
+
+}
+
+/* CONTENEDOR */
+
+.contenedor{
+
+flex:1;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+/* CARD */
+
+.glass-card{
+
+width:420px;
+
+padding:30px;
+
+border-radius:15px;
+
+background:rgba(255,255,255,0.2);
+
+backdrop-filter: blur(15px);
+
+box-shadow:0 8px 32px rgba(0,0,0,0.3);
+
+color:white;
+
+}
+
+/* INPUTS */
+
+.input-group{
+
+display:flex;
+align-items:center;
+
+background:rgba(255,255,255,0.3);
+
+padding:10px;
+
+margin:10px 0;
+
+border-radius:8px;
+
+}
+
+.input-group i{
+
+margin-right:10px;
+
+}
+
+.input-group input{
+
+background:transparent;
+border:none;
+outline:none;
+color:white;
+width:100%;
+
+}
+
+/* BOTON */
+
+.btn-enviar{
+
+width:100%;
+
+margin-top:15px;
+
+padding:12px;
+
+border:none;
+
+border-radius:8px;
+
+background:linear-gradient(90deg,#19c6b8,#0aa29d);
+
+color:white;
+
+font-weight:bold;
+
+cursor:pointer;
+
+}
+
+/* FOOTER */
+
+.footer-glass{
+
+text-align:center;
+
+padding:15px;
+
+background:rgba(0,0,0,0.5);
+
+color:white;
+
+}
